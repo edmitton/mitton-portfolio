@@ -48,6 +48,27 @@ export default function Home() {
               </a>
             </Button>
           </ListItem>
+          <ListItem>
+            <Button variant="outline" className="w-full" asChild>
+              <a href="https://sizu.me/mitton" target="_blank" rel="noopener noreferrer">
+                sizu.me
+              </a>
+            </Button>
+          </ListItem>
+          <ListItem>
+            <Button variant="outline" className="w-full" asChild>
+              <a href="https://www.linkedin.com/in/taisei-mitomi-29a189294/" target="_blank" rel="noopener noreferrer">
+                LinkedIn
+              </a>
+            </Button>
+          </ListItem>
+          <ListItem>
+            <Button variant="outline" className="w-full" asChild>
+              <a href="https://www.instagram.com/_edmton_33/" target="_blank" rel="noopener noreferrer">
+                Instagram
+              </a>
+            </Button>
+          </ListItem>
         </List>
       </div>
     </div>
