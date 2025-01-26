@@ -27,7 +27,7 @@ export default function Home() {
         <List>
           <ListItem>
             <Button variant="outline" className="w-full" asChild>
-              <a href="https://github.com/mitton" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/edmitton" target="_blank" rel="noopener noreferrer">
                 <Github className="mr-2 h-4 w-4" />
                 GitHub
               </a>
@@ -35,14 +35,14 @@ export default function Home() {
           </ListItem>
           <ListItem>
             <Button variant="outline" className="w-full" asChild>
-              <a href="https://twitter.com/mitton" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/ed_mitton" target="_blank" rel="noopener noreferrer">
                 <Twitter className="mr-2 h-4 w-4" />X (Twitter)
               </a>
             </Button>
           </ListItem>
           <ListItem>
             <Button variant="outline" className="w-full" asChild>
-              <a href="https://www.wantedly.com/id/mitton" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.wantedly.com/id/taisei_mitomi" target="_blank" rel="noopener noreferrer">
                 Wantedly Profile
               </a>
             </Button>
