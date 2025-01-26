@@ -9,19 +9,20 @@ export default function Home() {
       <div className="bg-white rounded-lg shadow-xl p-8 max-w-md w-full space-y-6">
         <div className="flex flex-col items-center">
           <Image
-            src="/placeholder.svg?height=120&width=120"
+            src="/images/mitton_icon.png"
             alt="Profile Picture"
             width={120}
             height={120}
             className="rounded-full"
           />
           <h1 className="mt-4 text-2xl font-bold text-gray-800">mitton</h1>
-          <p className="text-gray-600">Web Developer</p>
+          <p className="text-gray-600">Software Engineer</p>
         </div>
 
         <p className="text-center text-gray-700">
-          A passionate web developer with experience in React and Next.js. Always eager to learn and create innovative
-          solutions.
+          Welcome to my personal website!
+          <br />
+          [WIP]
         </p>
 
         <List>
