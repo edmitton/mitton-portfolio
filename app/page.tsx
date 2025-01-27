@@ -44,7 +44,7 @@ export default function Home() {
           <ListItem>
             <Button variant="outline" className="w-full" asChild>
               <a href="https://www.wantedly.com/id/taisei_mitomi" target="_blank" rel="noopener noreferrer">
-                Wantedly Profile
+                Wantedly
               </a>
             </Button>
           </ListItem>
