@@ -1,5 +1,9 @@
 import Image from "next/image"
-import { Github, Twitter } from "lucide-react"
+import { FaGithub } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { SiWantedly } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
 import { Button } from "@/components/ui/button"
 import { List, ListItem } from "@/components/ui/list"
 
@@ -29,43 +33,48 @@ export default function Home() {
           <ListItem>
             <Button variant="outline" className="w-full" asChild>
               <a href="https://github.com/edmitton" target="_blank" rel="noopener noreferrer">
-                <Github className="mr-2 h-4 w-4" />
-                GitHub
+                <FaGithub className="mr-2 h-4 w-4" />
               </a>
             </Button>
           </ListItem>
           <ListItem>
             <Button variant="outline" className="w-full" asChild>
               <a href="https://x.com/ed_mitton" target="_blank" rel="noopener noreferrer">
-                <Twitter className="mr-2 h-4 w-4" />X (Twitter)
+                <FaXTwitter className="mr-2 h-4 w-4" />
               </a>
             </Button>
           </ListItem>
           <ListItem>
             <Button variant="outline" className="w-full" asChild>
               <a href="https://www.wantedly.com/id/taisei_mitomi" target="_blank" rel="noopener noreferrer">
-                Wantedly
+                <SiWantedly className="mr-2 h-4 w-4" />
               </a>
             </Button>
           </ListItem>
           <ListItem>
             <Button variant="outline" className="w-full" asChild>
               <a href="https://sizu.me/mitton" target="_blank" rel="noopener noreferrer">
-                sizu.me
+                <Image
+                  src="/images/sizume.png"
+                  alt="sizu.me"
+                  className="mr-2 h-4 w-4"
+                  width={16}
+                  height={16}
+                />
               </a>
             </Button>
           </ListItem>
           <ListItem>
             <Button variant="outline" className="w-full" asChild>
               <a href="https://www.linkedin.com/in/taisei-mitomi-29a189294/" target="_blank" rel="noopener noreferrer">
-                LinkedIn
+                <FaLinkedin className="mr-2 h-4 w-4" />
               </a>
             </Button>
           </ListItem>
           <ListItem>
             <Button variant="outline" className="w-full" asChild>
               <a href="https://www.instagram.com/_edmton_33/" target="_blank" rel="noopener noreferrer">
-                Instagram
+                <FaInstagram className="mr-2 h-4 w-4" />
               </a>
             </Button>
           </ListItem>
